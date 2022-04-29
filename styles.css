@@ -1,25 +1,63 @@
 .header{
     background-color: #1F2937;
+    padding-bottom: 20px;
 
 }
 .flexContainer{
     display: flex;
 }
+.flexContainer.Hero{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 .leftHeader{
     width: 50%;
+    margin-left: 20%;
 }
 .rightHeader{
     width: 50%;
+    margin-right: 20%;
 }
 ul{
     display: flex;
+    margin-left: 10%;
 }
 li{
     padding: 5px;
 }
 img{
     display: block;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
     width: 50%;
+}
+.btn{
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    color: #F9FAF8
+}
+li{
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    padding-right: 20px;
+}
+h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-top: 0;
+}
+.secondayText{
+    font-size: 18px;
+    color: #e5e7eb;
 }
