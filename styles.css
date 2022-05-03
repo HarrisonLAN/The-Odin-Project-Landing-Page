@@ -4,6 +4,7 @@
 
 }
 .flexContainer{
+    text-align: center;
     display: flex;
 }
 .flexContainer.Hero{
@@ -29,7 +30,6 @@ img{
     display: block;
     margin-left: 10%;
     margin-right: auto;
-    width: 50%;
 }
 .btn{
     background-color: #3882f6;
@@ -61,3 +61,62 @@ h3{
     font-size: 18px;
     color: #e5e7eb;
 }
+.contentHeading{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+.flexContainer.content{
+    width: 80%;
+    margin: auto;
+}
+.flexItem{
+    padding: 20px;
+    text-align: center;
+}
+.imgContent{
+    border-radius: 25px;
+}
+.section2{
+    background-color: #e5e7eb;
+    height: 50%;
+}
+.quote{
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.register{
+    position: relative;
+    height: 200px;
+}
+.callToAction{
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    margin: auto;
+    background-color: #3882f6;
+    height: 160px;
+}
+.flexItem.action{
+    text-align: center;
+    flex: 1;
+}
+.footer{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+body {
+    margin: 0;
+ }
