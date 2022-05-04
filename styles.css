@@ -10,6 +10,7 @@
 .flexContainer.Hero{
     padding-top: 75px;
     padding-bottom: 75px;
+    flex-wrap: nowrap;
 }
 .leftHeader{
     width: 50%;
@@ -166,3 +167,21 @@ body {
     height: 100%;
     vertical-align: middle;
  }
+ @media only screen and (max-width: 1526px) {
+    .rightHeader.hero {
+        display: none;
+    }
+    .flexItem.action.sign{
+        display: none;
+    }
+    .flexItem.action.right{
+        padding: 20px;
+        text-align: center;
+    }
+    H4{
+        text-align: center;
+    }
+    .flexContainer{
+        flex-wrap: wrap;
+    }
+}
